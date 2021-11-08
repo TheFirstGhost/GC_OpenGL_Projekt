@@ -3,30 +3,30 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\Debug\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\Debug\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\Release\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\Release\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\MinSizeRel\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\MinSizeRel\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\RelWithDebInfo\playground.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\RelWithDebInfo\playground.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/playground/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/playground/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 
 </Project>

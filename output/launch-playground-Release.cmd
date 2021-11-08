@@ -1,9 +1,9 @@
-cd C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/playground/
+cd D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/playground/
 set 
 
 if [%1]==[--debugger] (
 	SHIFT
 )
 
-"C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\Release\playground.exe"  
+"D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\Release\playground.exe"  
 pause

@@ -21,11 +21,11 @@ using namespace glm;
 
 //Tncluds for Text
 #include <common/shader.hpp>
-#include <common/texture.hpp>
-#include <common/controls.hpp>
+//#include <common/texture.hpp>
+//#include <common/controls.hpp>
 #include <common/objloader.hpp>
 #include <common/vboindexer.hpp>
-#include <common/text2D.hpp>
+//#include <common/text2D.hpp>
 
 //Includ own header Files
 #include "gameData.h"
@@ -57,15 +57,6 @@ int main( void )
 
   // Create and compile our GLSL program from the shaders
   programID = LoadShaders("SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader");
-
-  // Load the texture
-  GLuint Texture = loadDDS("uvmap.DDS");
-
-  // Get a handle for our "myTextureSampler" uniform
-  //GLuint TextureID = glGetUniformLocation(programID, "myTextureSampler");
-
-  //Init Text
-  initText2D("Holstein.DDS");
 
 	//start animation loop until escape key is pressed
 	do{
@@ -116,6 +107,7 @@ int main( void )
                         gameBoard->setField(gameBoard->throwField, 6, BACKGROUND);
                         setNextState(GAME_STATE_PLAYER2);
                         if (checkWin()) {
+                            drawWin(RED);
                             setNextState(GAME_STATE_END);
                         }
                     }
@@ -131,13 +123,13 @@ int main( void )
         {
             //gameBoard->throwField = 3;
             //gameBoard->setField(gameBoard->throwField, 6, BLUE);
-            if (glfwGetKey(window, GLFW_KEY_LEFT)) {
+            if (glfwGetKey(window, GLFW_KEY_A)) {
                 if (onlyOnce) {
                     onlyOnce = false;
                     changeThrowInPos(-1);
                 }
             }
-            else if (glfwGetKey(window, GLFW_KEY_RIGHT)) {
+            else if (glfwGetKey(window, GLFW_KEY_D)) {
                 if (onlyOnce) {
                     onlyOnce = false;
                     changeThrowInPos(1);
@@ -153,9 +145,10 @@ int main( void )
                         gameBoard->setField(gameBoard->throwField, 6, BACKGROUND);
                         setNextState(GAME_STATE_PLAYER1);
                         if (checkWin()) {
-                            sprintf(text, "Test123");
+                            //sprintf(text, "Test123");
                             //glfwSetWindowTitle(window, tilteArr);
-                            printText2D(text, 100, 100, 60);
+                            //printText2D(text, 100, 100, 60);
+                            drawWin(BLUE);
                             setNextState(GAME_STATE_END);
                         }
                     }
@@ -176,11 +169,8 @@ int main( void )
                 onlyOnce = true;
             }
         }
-
-        //initializeVertexbuffer();
+        initializeVertexbuffer();
         updateAnimationLoop();
-        sprintf(text, "Test123");
-        printText2D(text, 10, 10, 100);
 
 	} // Check if the ESC key was pressed or the window was closed
 	while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
@@ -191,9 +181,6 @@ int main( void )
     cleanupVertexbuffer();
     glDeleteProgram(programID);
     glDeleteTextures(1, &Texture);
-
-    // Delete the text's VBO, the shader and the texture
-    cleanupText2D();
 
 	closeWindow();
   
@@ -250,6 +237,7 @@ void setNextState(int state) {
             gameBoard->setField(gameBoard->throwField, 6, BLUE);
         }
         else if (state == GAME_STATE_START) {
+            clearWin();
             initBoard();
         }
     }
@@ -351,20 +339,19 @@ bool checkWin() {
             }
         }
     }
-    for (int x = boardX - 3; x >= 3; x--)
+    for (int x = boardX; x >= 3; x--)
     {
-        //int Sx = x;
         for (int y = 0; y < boardY - 4; y++)
         {
             connectedR = 0;
             connectedB = 0;
             for (int i = 3; i >= 0; i--)
             {
-                if (gameBoard->getField(x + i, y + i) == RED) {
+                if (gameBoard->getField(x - i, y + i) == RED) {
                     connectedB = 0;
                     connectedR++;
                 }
-                else if (gameBoard->getField(x + i, y + i) == BLUE) {
+                else if (gameBoard->getField(x - i, y + i) == BLUE) {
                     connectedB++;
                     connectedR = 0;
                 }
@@ -395,24 +382,28 @@ void updateAnimationLoop()
   // Use our shader
   glUseProgram(programID);
 
+  // Bind our texture in Texture Unit 0
+  glActiveTexture(GL_TEXTURE0);
+  glBindTexture(GL_TEXTURE_2D, Texture);
+
   // 1rst attribute buffer : vertices
   glEnableVertexAttribArray(0);
   glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
   glVertexAttribPointer(
     0,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
-    3,  // size
+    3,                  // size
     GL_FLOAT,           // type
     GL_FALSE,           // normalized?
     0,                  // stride
     (void*)0            // array buffer offset
   );
 
-  // 2rst attribute buffer : colors
+  // 2nd attribute buffer : colors
   glEnableVertexAttribArray(1);
   glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
   glVertexAttribPointer(
-      1,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
-      3,  // size
+      1,                  // attribute 1.
+      3,                  // size
       GL_FLOAT,           // type
       GL_FALSE,           // normalized?
       0,                  // stride
@@ -481,10 +472,12 @@ void initVertexbuffer() {
     glGenVertexArrays(1, &VertexArrayID);
     glBindVertexArray(VertexArrayID);
 
+
     glGenBuffers(1, &vertexbuffer);
     glGenBuffers(1, &colorbuffer);
 
-    vertexbuffer_size = 6 * 6 * 7 * 2 + 7 * 6;
+
+    vertexbuffer_size = 6 * 6 * 7 * 2 + 7 * 6 + 16 * 3;
 
     for (int y = 0; y < 6; y++)
     {
@@ -536,6 +529,178 @@ void initVertexbuffer() {
                 g_color_buffer_data[1512 + 18 * x + 3 * i + 2] = colors[BACKGROUND + 2];
             }
         }
+
+        for (int i = 0; i < 3 * 2; i++) // Color
+        {
+            g_vertex_buffer_data[1638 + 3 * i] = ((1.6f / 5) * rect_vertex_buffer[3 * i] + (1.6f / 5) * 0) - 0.8f;//-0.8f + (1.6f / 5) * 1 * rect_vertex_buffer[3 * i];
+            g_vertex_buffer_data[1638 + 3 * i + 1] = 0.95f - 0.2f * rect_vertex_buffer[3 * i + 1];
+            g_vertex_buffer_data[1638 + 3 * i + 2] = rect_vertex_buffer[3 * i + 2];
+            g_color_buffer_data[1638 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1638 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1638 + 3 * i + 2] = colors[BACKGROUND + 2];
+        }
+        for (int i = 0; i < 3 * 2; i++) // W_1
+        {
+            g_vertex_buffer_data[1656 + 3 * i] = ((1.6f / 5) * W_Char_back[3 * i] + (1.6f / 5) * 1) - 0.8f;;
+            g_vertex_buffer_data[1656 + 3 * i + 1] = 0.95f - 0.2f * W_Char_back[3 * i + 1];
+            g_vertex_buffer_data[1656 + 3 * i + 2] = W_Char_back[3 * i + 2];
+            g_color_buffer_data[1656 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1656 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1656 + 3 * i + 2] = colors[BACKGROUND + 2];
+        } 
+
+        for (int i = 0; i < 3 * 2; i++) // W_2
+        {
+            g_vertex_buffer_data[1674 + 3 * i] = ((1.6f / 5) * W_Char_front[3 * i] + (1.6f / 5) * 1) - 0.8f;
+            g_vertex_buffer_data[1674 + 3 * i + 1] = 0.95f - 0.2f * W_Char_front[3 * i + 1];
+            g_vertex_buffer_data[1674 + 3 * i + 2] = W_Char_front[3 * i + 2];
+            g_color_buffer_data[1674 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1674 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1674 + 3 * i + 2] = colors[BACKGROUND + 2];
+        }
+
+        for (int i = 0; i < 3 * 2; i++) // I_1
+        {
+            g_vertex_buffer_data[1692 + 3 * i] = ((1.6f / 5) * I_Char[3 * i] + (1.6f / 5) * 2) - 0.8f;
+            g_vertex_buffer_data[1692 + 3 * i + 1] = 0.95f - 0.2f * I_Char[3 * i + 1];
+            g_vertex_buffer_data[1692 + 3 * i + 2] = I_Char[3 * i + 2];
+            g_color_buffer_data[1692 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1692 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1692 + 3 * i + 2] = colors[BACKGROUND + 2];
+        }
+
+        for (int i = 0; i < 3 * 3; i++) // N_1
+        {
+            g_vertex_buffer_data[1710 + 3 * i] = ((1.6f / 5) * N_Char[3 * i] + (1.6f / 5) * 3) - 0.8f;
+            g_vertex_buffer_data[1710 + 3 * i + 1] = 0.95f - 0.2f * N_Char[3 * i + 1];
+            g_vertex_buffer_data[1710 + 3 * i + 2] = N_Char[3 * i + 2];
+            g_color_buffer_data[1710 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1710 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1710 + 3 * i + 2] = colors[BACKGROUND + 2];
+        }
+
+        for (int i = 0; i < 3; i++) // N_2
+        {
+            g_vertex_buffer_data[1737 + 3 * i] = ((1.6f / 5) * N_Char_front[3 * i] + (1.6f / 5) * 3) - 0.8f;
+            g_vertex_buffer_data[1737 + 3 * i + 1] = 0.95f - 0.2f * N_Char_front[3 * i + 1];
+            g_vertex_buffer_data[1737 + 3 * i + 2] = N_Char_front[3 * i + 2];
+            g_color_buffer_data[1737 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1737 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1737 + 3 * i + 2] = colors[BACKGROUND + 2];
+        }
+
+        for (int i = 0; i < 3 * 4; i++) // S_1
+        {
+            g_vertex_buffer_data[1746 + 3 * i] = ((1.6f / 5) * S_Char[3 * i] + (1.6f / 5) * 4) - 0.8f;
+            g_vertex_buffer_data[1746 + 3 * i + 1] = 0.95f - 0.2f * S_Char[3 * i + 1];
+            g_vertex_buffer_data[1746 + 3 * i + 2] = S_Char[3 * i + 2];
+            g_color_buffer_data[1746 + 3 * i] = colors[BACKGROUND];
+            g_color_buffer_data[1746 + 3 * i + 1] = colors[BACKGROUND + 1];
+            g_color_buffer_data[1746 + 3 * i + 2] = colors[BACKGROUND + 2];
+        }
+
+
+    }
+}
+
+void drawWin(int color) {
+    for (int i = 0; i < 3 * 2; i++) // Color
+    {
+        g_color_buffer_data[1638 + 3 * i] = colors[color];
+        g_color_buffer_data[1638 + 3 * i + 1] = colors[color + 1];
+        g_color_buffer_data[1638 + 3 * i + 2] = colors[color + 2];
+    }
+    for (int i = 0; i < 3 * 2; i++) // W_1
+    {
+        g_color_buffer_data[1656 + 3 * i] = colors[GREY];
+        g_color_buffer_data[1656 + 3 * i + 1] = colors[GREY + 1];
+        g_color_buffer_data[1656 + 3 * i + 2] = colors[GREY + 2];
+    }
+
+    for (int i = 0; i < 3 * 2; i++) // W_2
+    {
+        g_color_buffer_data[1674 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1674 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1674 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3 * 2; i++) // I_1
+    {;
+        g_color_buffer_data[1692 + 3 * i] = colors[GREY];
+        g_color_buffer_data[1692 + 3 * i + 1] = colors[GREY + 1];
+        g_color_buffer_data[1692 + 3 * i + 2] = colors[GREY + 2];
+    }
+
+    for (int i = 0; i < 3 * 3; i++) // N_1
+    {
+        g_color_buffer_data[1710 + 3 * i] = colors[GREY];
+        g_color_buffer_data[1710 + 3 * i + 1] = colors[GREY + 1];
+        g_color_buffer_data[1710 + 3 * i + 2] = colors[GREY + 2];
+    }
+
+    for (int i = 0; i < 3; i++) // N_2
+    {
+        g_color_buffer_data[1737 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1737 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1737 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3 * 4; i++) // S_1
+    {
+        g_color_buffer_data[1746 + 3 * i] = colors[GREY];
+        g_color_buffer_data[1746 + 3 * i + 1] = colors[GREY + 1];
+        g_color_buffer_data[1746 + 3 * i + 2] = colors[GREY + 2];
+    }
+}
+
+void clearWin() {
+    for (int i = 0; i < 3 * 2; i++) // Color
+    {
+        g_color_buffer_data[1638 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1638 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1638 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+    for (int i = 0; i < 3 * 2; i++) // W_1
+    {
+        g_color_buffer_data[1656 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1656 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1656 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3 * 2; i++) // W_2
+    {
+        g_color_buffer_data[1674 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1674 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1674 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3 * 2; i++) // I_1
+    {
+        ;
+        g_color_buffer_data[1692 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1692 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1692 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3 * 3; i++) // N_1
+    {
+        g_color_buffer_data[1710 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1710 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1710 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3; i++) // N_2
+    {
+        g_color_buffer_data[1737 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1737 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1737 + 3 * i + 2] = colors[BACKGROUND + 2];
+    }
+
+    for (int i = 0; i < 3 * 4; i++) // S_1
+    {
+        g_color_buffer_data[1746 + 3 * i] = colors[BACKGROUND];
+        g_color_buffer_data[1746 + 3 * i + 1] = colors[BACKGROUND + 1];
+        g_color_buffer_data[1746 + 3 * i + 2] = colors[BACKGROUND + 2];
     }
 }
 
@@ -579,6 +744,4 @@ bool closeWindow()
   glfwTerminate();
   return true;
 }
-
-//void updateBoard()
 

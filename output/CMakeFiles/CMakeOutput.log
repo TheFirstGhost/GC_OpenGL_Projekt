@@ -9,8 +9,8 @@ The output was:
 Microsoft (R)-Build-Engine, Version 16.11.0+0538acc04 fr .NET Framework
 Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
-Der Buildvorgang wurde am 02.11.2021 13:03:04 gestartet.
-Projekt "C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\3.22.0-rc1\CompilerIdC\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+Der Buildvorgang wurde am 08.11.2021 11:44:51 gestartet.
+Projekt "D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\3.22.0-rc1\CompilerIdC\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
 PrepareForBuild:
   Das Verzeichnis "Debug\" wird erstellt.
   Das Verzeichnis "Debug\CompilerIdC.tlog\" wird erstellt.
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\3.22.0-rc1\CompilerIdC\CompilerIdC.exe
+  CompilerIdC.vcxproj -> D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\3.22.0-rc1\CompilerIdC\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Die Datei "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird gel”scht.
   Aktualisieren des Timestamps von "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\3.22.0-rc1\CompilerIdC\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+Die Erstellung von Projekt "D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\3.22.0-rc1\CompilerIdC\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
 
 Der Buildvorgang wurde erfolgreich ausgefhrt.
     0 Warnung(en)
     0 Fehler
 
-Verstrichene Zeit 00:00:00.95
+Verstrichene Zeit 00:00:01.20
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/CMakeFiles/3.22.0-rc1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/CMakeFiles/3.22.0-rc1/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 Microsoft (R)-Build-Engine, Version 16.11.0+0538acc04 fr .NET Framework
 Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
-Der Buildvorgang wurde am 02.11.2021 13:03:05 gestartet.
-Projekt "C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\3.22.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+Der Buildvorgang wurde am 08.11.2021 11:44:53 gestartet.
+Projekt "D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\3.22.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
 PrepareForBuild:
   Das Verzeichnis "Debug\" wird erstellt.
   Das Verzeichnis "Debug\CompilerIdCXX.tlog\" wird erstellt.
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\3.22.0-rc1\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\3.22.0-rc1\CompilerIdCXX\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,46 +74,46 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Die Datei "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird gel”scht.
   Aktualisieren des Timestamps von "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\3.22.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+Die Erstellung von Projekt "D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\3.22.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
 
 Der Buildvorgang wurde erfolgreich ausgefhrt.
     0 Warnung(en)
     0 Fehler
 
-Verstrichene Zeit 00:00:00.77
+Verstrichene Zeit 00:00:00.94
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/CMakeFiles/3.22.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/CMakeFiles/3.22.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/CMakeFiles/CMakeTmp
+Change Dir: D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2e25e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R)-Build-Engine, Version 16.11.0+0538acc04 fr .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c6275.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R)-Build-Engine, Version 16.11.0+0538acc04 fr .NET Framework
 Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
   Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30133 fr x64
   Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e25e.dir\Debug\\" /Fd"cmTC_2e25e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
-  cmTC_2e25e.vcxproj -> C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\CMakeTmp\Debug\cmTC_2e25e.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6275.dir\Debug\\" /Fd"cmTC_c6275.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
+  cmTC_c6275.vcxproj -> D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\CMakeTmp\Debug\cmTC_c6275.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/CMakeFiles/CMakeTmp
+Change Dir: D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d5123.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R)-Build-Engine, Version 16.11.0+0538acc04 fr .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_10f3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R)-Build-Engine, Version 16.11.0+0538acc04 fr .NET Framework
 Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
 
   Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30133 fr x64
   Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d5123.dir\Debug\\" /Fd"cmTC_d5123.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_d5123.vcxproj -> C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\CMakeTmp\Debug\cmTC_d5123.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_10f3c.dir\Debug\\" /Fd"cmTC_10f3c.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_10f3c.vcxproj -> D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\CMakeTmp\Debug\cmTC_10f3c.exe
 
 
 

@@ -1,6 +1,6 @@
-^C:\USERS\LUKAS\CLIONPROJECTS\THU\CG\OPENGL-TEMPLATE-MASTER\OUTPUT\CMAKEFILES\95B9ABD3115388229025473FE18A4C61\GENERATE.STAMP.RULE
+^D:\LUKAS\DOCUMENTS\GITHUB\GC_OPENGL_PROJEKT\OUTPUT\CMAKEFILES\A221881868B132A95F91AC4C241FAF43\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/OpenGL-Template.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/OpenGL-Template.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

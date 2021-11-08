@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\tests\Debug\cursor.exe</FullPath>
+      <FullPath>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\tests\Debug\cursor.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

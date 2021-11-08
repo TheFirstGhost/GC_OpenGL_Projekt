@@ -42,7 +42,6 @@ include_directories(
 	.
 )
 
-
 set(ALL_LIBS
 	${OPENGL_LIBRARY}
 	glfw
@@ -70,14 +69,10 @@ add_executable(playground
 	common/shader.hpp
 	common/controls.cpp
 	common/controls.hpp
-	common/texture.cpp
-	common/texture.hpp
 	common/objloader.cpp
 	common/objloader.hpp
 	common/vboindexer.cpp
 	common/vboindexer.hpp
-	common/text2D.hpp
-	common/text2D.cpp
 
 	playground/SimpleFragmentShader.fragmentshader
 	playground/SimpleVertexShader.vertexshader

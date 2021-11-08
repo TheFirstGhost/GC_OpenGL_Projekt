@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master
+# Install script for directory: D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/cmake_install.cmake")
+  include("D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

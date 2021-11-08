@@ -1,6 +1,6 @@
-^C:\USERS\LUKAS\CLIONPROJECTS\THU\CG\OPENGL-TEMPLATE-MASTER\EXTERNAL\GLFW-3.1.2\TESTS\CMAKELISTS.TXT
+^D:\LUKAS\DOCUMENTS\GITHUB\GC_OPENGL_PROJEKT\EXTERNAL\GLFW-3.1.2\TESTS\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
