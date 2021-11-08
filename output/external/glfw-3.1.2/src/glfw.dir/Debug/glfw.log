@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/src/CMakeLists.txt
+﻿  Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/src/CMakeLists.txt
   context.c
   init.c
   input.c
@@ -11,4 +11,4 @@
   win32_window.c
   winmm_joystick.c
   wgl_context.c
-  glfw.vcxproj -> C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\Debug\glfw3.lib
+  glfw.vcxproj -> D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\Debug\glfw3.lib

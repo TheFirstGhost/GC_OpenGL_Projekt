@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\tests\iconify.c">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\tests\iconify.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\deps\getopt.c">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\deps\getopt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\deps\getopt.h">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\deps\getopt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\tests\CMakeLists.txt" />
+    <CustomBuild Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{99902980-D321-308F-A4AD-1874D1FE5CA4}</UniqueIdentifier>
+      <UniqueIdentifier>{13469DDB-ADEC-32F0-8426-4D61202E0B9E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F222A5E6-5AA9-3FC2-BCE9-8C3E9C1B2377}</UniqueIdentifier>
+      <UniqueIdentifier>{F8F1043D-4243-393E-BE01-5E374CB667E6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,92 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\playground.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\playground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\gameData.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\gameData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\gameLogic.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\gameLogic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\shader.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\shader.cpp">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\controls.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\controls.cpp">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\texture.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\objloader.cpp">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\objloader.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\vboindexer.cpp">
-      <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\text2D.cpp">
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\vboindexer.cpp">
       <Filter>common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\playground.h">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\playground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\gameData.h">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\gameData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\gameLogic.h">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\gameLogic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\shader.hpp">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\shader.hpp">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\controls.hpp">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\controls.hpp">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\texture.hpp">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\objloader.hpp">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\objloader.hpp">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\vboindexer.hpp">
-      <Filter>common</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\common\text2D.hpp">
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\common\vboindexer.hpp">
       <Filter>common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\CMakeLists.txt" />
+    <CustomBuild Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\SimpleFragmentShader.fragmentshader">
+    <None Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\SimpleFragmentShader.fragmentshader">
       <Filter>shaders</Filter>
     </None>
-    <None Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\SimpleVertexShader.vertexshader">
+    <None Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\SimpleVertexShader.vertexshader">
       <Filter>shaders</Filter>
     </None>
-    <None Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\StandardShading.fragmentshader">
+    <None Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\StandardShading.fragmentshader">
       <Filter>shaders</Filter>
     </None>
-    <None Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\playground\StandardShading.vertexshader">
+    <None Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\playground\StandardShading.vertexshader">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{99902980-D321-308F-A4AD-1874D1FE5CA4}</UniqueIdentifier>
+      <UniqueIdentifier>{13469DDB-ADEC-32F0-8426-4D61202E0B9E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F222A5E6-5AA9-3FC2-BCE9-8C3E9C1B2377}</UniqueIdentifier>
+      <UniqueIdentifier>{F8F1043D-4243-393E-BE01-5E374CB667E6}</UniqueIdentifier>
     </Filter>
     <Filter Include="common">
-      <UniqueIdentifier>{F4BE73A6-82AB-37FB-86B1-C75F67B9AF0E}</UniqueIdentifier>
+      <UniqueIdentifier>{85DDC0B1-D23A-3665-BADC-18C207BB5CAF}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders">
-      <UniqueIdentifier>{4F05ADCE-8E9D-3A27-B8BE-1BFB0AC5D172}</UniqueIdentifier>
+      <UniqueIdentifier>{C9430ACB-2A90-3F66-ABBD-25A906DDC1AD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

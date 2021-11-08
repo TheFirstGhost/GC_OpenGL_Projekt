@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8ED126AE-F5C9-3E91-8BD9-554AD0B88DCF}</ProjectGuid>
+    <ProjectGuid>{4F71BA5F-307D-3297-B3A5-2FF348386BBD}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -130,10 +130,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,7 +146,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -164,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -197,10 +197,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,11 +212,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\CMakeLists.txt">
+    <CustomBuild Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,11 +225,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -238,11 +238,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,11 +251,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,35 +264,35 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\context.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\init.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\input.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\monitor.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\window.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_init.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_monitor.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_time.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_tls.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_window.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\winmm_joystick.c" />
-    <ClCompile Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\wgl_context.c" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\internal.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\src\glfw_config.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\include\GLFW\glfw3.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\include\GLFW\glfw3native.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_platform.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\win32_tls.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\winmm_joystick.h" />
-    <ClInclude Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\wgl_context.h" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\context.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\init.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\input.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\monitor.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\window.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_init.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_monitor.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_time.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_tls.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_window.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\winmm_joystick.c" />
+    <ClCompile Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\wgl_context.c" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\internal.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\src\glfw_config.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\include\GLFW\glfw3.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\include\GLFW\glfw3native.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_platform.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\win32_tls.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\winmm_joystick.h" />
+    <ClInclude Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\wgl_context.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\ZERO_CHECK.vcxproj">
-      <Project>{479490DC-8641-3B8E-A114-17C159417D48}</Project>
+    <ProjectReference Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\ZERO_CHECK.vcxproj">
+      <Project>{40FD26F6-90DE-378B-B273-963E26F0171E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

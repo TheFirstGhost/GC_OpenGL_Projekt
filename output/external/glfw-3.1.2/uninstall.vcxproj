@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{084A8FED-3BA0-3693-80AA-650959E0B87F}</ProjectGuid>
+    <ProjectGuid>{492E4091-5D62-34C5-8C97-CFF60CA0DC2C}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\CMakeFiles\a0370b8f3493666ff86e29d225b44286\uninstall.rule">
+    <CustomBuild Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\CMakeFiles\0d4faca11d6d75b67739e4b10031676e\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/cmake_uninstall.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/cmake_uninstall.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/cmake_uninstall.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/cmake_uninstall.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,17 +159,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\CMakeLists.txt">
+    <CustomBuild Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,12 +177,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\docs\Doxyfile.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3.pc.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,12 +190,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\docs\Doxyfile.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3.pc.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,12 +203,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\docs\Doxyfile.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3.pc.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master -BC:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output --check-stamp-file C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt -BD:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output --check-stamp-file D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,18 +216,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\docs\Doxyfile.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3.pc.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\external\glfw-3.1.2\CMakeFiles\uninstall">
+    <None Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\external\glfw-3.1.2\CMakeFiles\uninstall">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Lukas\CLionProjects\THU\CG\OpenGL-Template-master\output\ZERO_CHECK.vcxproj">
-      <Project>{479490DC-8641-3B8E-A114-17C159417D48}</Project>
+    <ProjectReference Include="D:\Lukas\Documents\GitHub\GC_OpenGL_Projekt\output\ZERO_CHECK.vcxproj">
+      <Project>{40FD26F6-90DE-378B-B273-963E26F0171E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

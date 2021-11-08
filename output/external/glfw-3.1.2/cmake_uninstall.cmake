@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/install_manifest.txt\"")
+if (NOT EXISTS "D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Lukas/CLionProjects/THU/CG/OpenGL-Template-master/output/external/glfw-3.1.2/install_manifest.txt" files)
+file(READ "D:/Lukas/Documents/GitHub/GC_OpenGL_Projekt/output/external/glfw-3.1.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
